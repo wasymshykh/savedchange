@@ -1,0 +1,2 @@
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([\w-]+)[\/]?$ $1.php [NC,L]

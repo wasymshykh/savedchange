@@ -39,3 +39,4 @@
     $settings = new Settings($db);
     
     define('URL', $settings->protocol().'://'.$settings->site_url());
+    
